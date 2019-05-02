@@ -45,16 +45,6 @@ This EFI is suitable for the 7000 Hackintosh of Lenovo.
 
 
 
-## Necessary explanation
-
-
-
-- At present, there is a serie of this laptop in 14 inches types which is different from this EFI. The specificion of it is that the battery information is not recognized, and the touchpad ID is SYNA2393. This type of laptop in 14 inches can't use this EFI  and it needs to wait for the implement  in next version.
-- At present, EFI has not yet supported 13 inches laptop, 13 inches laptop support will come in the next version.
-- Because of the need for update, the  `config.plist` for Sierra support is removed and it will no longer be available from version 3.2.
-
-
-
 
 
 ## System Screenshot
