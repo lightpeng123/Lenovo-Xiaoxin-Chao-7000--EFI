@@ -126,6 +126,7 @@ This EFI is suitable for the 7000 Hackintosh of Lenovo.
 - 05-02-2019 EFI 3.2
 - Update battery Hotpatch for 13 inch and 14 inch(SYNA2393)
   - Fix touchpad setting for 13inch and 14 inch
+  - Add NoTouchID to fix pause issue when getting root
 - 01-23-2019  EFI 3.2
 - Fix HDMI Display  issue
   - Remove `VoodooSDHC` ，add `Sinetek-rtsk`
