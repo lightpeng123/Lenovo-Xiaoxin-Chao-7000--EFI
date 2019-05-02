@@ -123,17 +123,14 @@ This EFI is suitable for the 7000 Hackintosh of Lenovo.
 
 
 
+- 05-02-2019 EFI 3.2
+- Update battery Hotpatch for 13 inch and 14 inch(SYNA2393)
+  - Fix touchpad setting for 13inch and 14 inch
 - 01-23-2019  EFI 3.2
-
-  - Fix HDMI Display  issue
+- Fix HDMI Display  issue
   - Remove `VoodooSDHC` ，add `Sinetek-rtsk`
   - Remove config.plist for Sierra
   - Update Clover version to 4895，support for 14.3 installation
-
-- 
-
-  ​      修复HDMI输出问题移除旧版VoodooSDHC驱动，添加新的读卡器驱动移除12系列的配置文件更新四叶草版本至4895，支持14.3安装使用
-
 - 12-18-2018  EFI 3.1
 
   - Update Lilu and WhateverGreen versions.
@@ -147,7 +144,6 @@ This EFI is suitable for the 7000 Hackintosh of Lenovo.
   - Remove the SSDT of variable frequency and use `PluginType` parameter instead.
 
   - Add virtual built in NIC.
-
 - 10-31-2018  EFI 3.0
 
   -  Use `CPUfriend` to add CPU frequency data.
@@ -155,7 +151,6 @@ This EFI is suitable for the 7000 Hackintosh of Lenovo.
   - Add `VoodooSDHC` to drive SD reader.
 
   - Add `AppleALC` to replace `VoodooHDA`.
-
 - 10-06-2018  EFI 2.1
 
   - Update the Clover to 4694, use a new theme.
